@@ -1,0 +1,14 @@
+@import 'color';
+
+
+@each $key,$value in $colors {
+    .bcg-#{$key}-gradient{
+        background-image:linear-gradient($value,darken($value,40%));
+    }
+}
+
+@each $key,$value in $colors {
+    .bcg-#{$key}{
+        background-image:linear-gradient($value);
+    }
+}

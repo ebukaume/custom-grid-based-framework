@@ -1,0 +1,35 @@
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(#555,#000);
+  max-width: 100%;
+  padding: 1.5%;
+  box-shadow: 0 8px 6px -6px #000;
+
+  .navbar-brand{
+
+    &:hover{
+      cursor: pointer;  
+    }
+  }
+
+  .navbar-item{
+    display: flex;
+    
+
+    .links{
+      color: #fff;
+      text-shadow: 1px 1px #000;
+      text-decoration: none;
+      margin-left: 10px;
+      margin-right: 10px;
+
+      &:hover{
+        color:darken($color: #fff, $amount: 32%)
+      }
+      
+    }
+  }
+
+}
