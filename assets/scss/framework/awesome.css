@@ -291,6 +291,7 @@
   border-radius: 3px;
   border: 0;
   padding: 20px;
+  font-size: 1.3rem;
 }
 
 .red-but-lg:hover {
@@ -304,6 +305,7 @@
   border-radius: 3px;
   border: 0;
   padding: 20px;
+  font-size: 1.3rem;
 }
 
 .blue-but-lg:hover {
@@ -317,6 +319,7 @@
   border-radius: 3px;
   border: 0;
   padding: 20px;
+  font-size: 1.3rem;
 }
 
 .yellow-but-lg:hover {
@@ -330,6 +333,7 @@
   border-radius: 3px;
   border: 0;
   padding: 20px;
+  font-size: 1.3rem;
 }
 
 .green-but-lg:hover {
@@ -343,6 +347,7 @@
   border-radius: 3px;
   border: 0;
   padding: 20px;
+  font-size: 1.3rem;
 }
 
 .default-but-lg:hover {
@@ -356,6 +361,7 @@
   border-radius: 3px;
   border: 0;
   padding: 20px;
+  font-size: 1.3rem;
 }
 
 .inverse-but-lg:hover {
@@ -369,12 +375,18 @@
   border-radius: 3px;
   border: 0;
   padding: 20px;
+  font-size: 1.3rem;
 }
 
 .orange-but-lg:hover {
   color: compliment(#ff4500);
   cursor: pointer;
   background-color: #ff8f66;
+}
+
+.img-dynamic {
+  max-width: 100%;
+  height: auto;
 }
 
 .container-1 {
