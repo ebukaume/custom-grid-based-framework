@@ -1,0 +1,10 @@
+$alignment: (center, left, right, justify);
+
+@each $location in $alignment {
+  .text-#{$location} {
+    text-align: $location;
+  }
+}
+.small {
+  font-size: 0.7rem;
+}

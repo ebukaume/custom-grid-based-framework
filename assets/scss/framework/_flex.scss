@@ -1,0 +1,50 @@
+@mixin display-flex($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+@mixin display-flex-reverse($direction: row-reverse) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+.flex-row {
+  @include display-flex();
+}
+.flex-row-reverse {
+  @include display-flex();
+}
+.flex-column {
+  @include display-flex(column);
+}
+.flex-column-reverse {
+  @include display-flex(column-reverse);
+}
+
+$justify-content-options: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around
+);
+
+$align-options: (start, end, center, baseline, stretch);
+
+@each $jco, $value in $justify-content-options {
+  .justify-content-#{$jco} {
+    justify-content: $value;
+  }
+}
+
+@each $ao in $align-options {
+  .align-items-#{$ao} {
+    align-items: $ao;
+  }
+}
+
+@each $ao in $align-options {
+  .align-self-#{$ao} {
+    align-self: $ao;
+  }
+}
