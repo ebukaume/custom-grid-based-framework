@@ -18,10 +18,27 @@ We will go over these sections
 - - margin
 - - padding
 - - background
+- - image
 
 ## Layout
 
 These set of classes are used for managing spaces throwing things around of your web page.
+
+### navbar
+ The navbar was designed using flexbox and by just calling the .navbar on any block element will create a default black navbar.like bootstrap's navbar class.Any child of this navbar is going to display horizontally and assume the justify-content-space aroung property of flexbox.The main children of this navbar class are : navbar and navbar item.
+ navbar-items on the other hand has links as it child class
+ For example
+ 
+```html
+<nav class="navbar">
+  <div class="navbar-brand">
+    I occupy 8 out of 12
+  </div>
+  <div class="navbar-item">
+    <a class="links">link</a>
+  </div>
+</nav>
+```
 
 ### container classes
 
@@ -96,13 +113,29 @@ Just apply class text-align-where and your text gets aligns there. The options a
 - justify
 - center
 
-### color classes
 
-## Components
+## colors
+This framework is limited to nine colors which for the basis for setting colors for element and background colors.
+These colors invlolve:
 
-### navbar classes
+- red:#D10918,
+- blue:#627BF6,
+- yellow:#FFC300,
+- green:green,
+- default:#fff,
+- inverse:#222,
+- orange:#ff4500,
+- gray:#555,
+- violet: #7f00ff
+
 
 ### button classes
+The button classes allow the user to make a button just as in bootstrap.The colors of this button are in turn in the range of our colors.The sizes of this button vary for default,small,medium,large
+ie but-red-lg will give us a larger button with larger text as compare to small and medium
+
+options include:
+
+- but-color-size 
 
 ## Utilities
 
@@ -137,3 +170,12 @@ Options avaliable are:
 - p-v-num
 
 ### background classes
+The background classes also allow the user of the framework to set background colors for element.The background classes uses CSS's background gradient property as a result user can use a mere background color or implement background-gradient.
+for mere background
+- bcg-color
+- bcg-color-gradient
+
+## image classe
+Even though not implement in this project,the imae class allow us to have an image responsive just like bootsrap's img-fluid class or img-responsive class.Set class on image by
+
+- img-dynamic
