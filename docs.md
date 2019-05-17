@@ -38,7 +38,7 @@ If you need a centralized container, this is the class to use. Just like bootstr
 
 These classes gives the power to slice up your page into 12 sections and then choose how many you want to use at a particular time.
 
-To do this, wrap your div in a container of class row (for horizontal) grid or column (for vertical grid). Then give each direct child a class of box-<break-point identifier>-number. You also have access to a gutter class g-1 through g-5 for 10px to 50px gutters respecively.
+To do this, wrap your div in a container of class row (for horizontal) grid or column (for vertical grid). Then give each direct child a class of box-break-point-identifier-number. You also have access to a gutter class g-1 through g-5 for 10px to 50px gutters respecively.
 
 Example 1:
 I want a horizontal grid 2 sections; 1 taking 8 slot, the other taking 4 slots and having a gutter of 30px between them.
@@ -89,7 +89,7 @@ These sets of classes helps you apply colors and align texts.
 
 ### text classes
 
-Just apply class text-align-<where> and your text gets aligns there. The options avaliable are;
+Just apply class text-align-where and your text gets aligns there. The options avaliable are;
 
 - left
 - right
@@ -114,13 +114,13 @@ This offers you the options to target either all round, top, bottom, right, left
 
 Options avaliable are:
 
-- m-<num>
-- m-t-<num>
-- m-r-<num>
-- m-b-<num>
-- m-l-<num>
-- m-h-<num>
-- m-v-<num>
+- m-num
+- m-t-num
+- m-r-num
+- m-b-num
+- m-l-num
+- m-h-num
+- m-v-num
 
 ### Padding classes
 
@@ -128,12 +128,12 @@ This offers you the options to target either all round, top, bottom, right, left
 
 Options avaliable are:
 
-- p-<num>
-- p-t-<num>
-- p-r-<num>
-- p-b-<num>
-- p-l-<num>
-- p-h-<num>
-- p-v-<num>
+- p-num
+- p-t-num
+- p-r-num
+- p-b-num
+- p-l-num
+- p-h-num
+- p-v-num
 
 ### background classes
