@@ -26,22 +26,11 @@ $break-points: (
   }
 }
 
-// @mixin display-grid($direction) {
-//   display: grid;
-//   @for $num from 1 through 12 {
-//     .box-#{$num} {
-//       grid-#{$direction}: span $num;
-//     }
-//   }
-// }
-
 .row {
-  //   @include display-grid(column);
   grid-template-columns: repeat(12, 1fr);
   @include make-grid(column);
 }
 .column {
-  //   @include display-grid(row);
   grid-template-rows: repeat(12, 1fr);
   @include make-grid(row);
 }
