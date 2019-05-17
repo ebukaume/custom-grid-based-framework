@@ -69,6 +69,16 @@
   background-image: linear-gradient(#ff4500, #330e00);
 }
 
+.bcg-gray-gradient {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#999), to(#333333));
+  background-image: linear-gradient(#999, #333333);
+}
+
+.bcg-violet-gradient {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7f00ff), to(#190033));
+  background-image: linear-gradient(#7f00ff, #190033);
+}
+
 .bcg-red {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#D10918));
   background-image: linear-gradient(#D10918);
@@ -102,6 +112,16 @@
 .bcg-orange {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ff4500));
   background-image: linear-gradient(#ff4500);
+}
+
+.bcg-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#999));
+  background-image: linear-gradient(#999);
+}
+
+.bcg-violet {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7f00ff));
+  background-image: linear-gradient(#7f00ff);
 }
 
 .red-but-sm {
@@ -195,6 +215,32 @@
   background-color: #ff8f66;
 }
 
+.gray-but-sm {
+  background: #999;
+  border-radius: 3px;
+  border: 0;
+  padding: 5px;
+}
+
+.gray-but-sm:hover {
+  color: compliment(#999);
+  cursor: pointer;
+  background-color: #cccccc;
+}
+
+.violet-but-sm {
+  background: #7f00ff;
+  border-radius: 3px;
+  border: 0;
+  padding: 5px;
+}
+
+.violet-but-sm:hover {
+  color: compliment(#7f00ff);
+  cursor: pointer;
+  background-color: #b266ff;
+}
+
 .red-but-md {
   background: #D10918;
   border-radius: 3px;
@@ -284,6 +330,32 @@
   color: compliment(#ff4500);
   cursor: pointer;
   background-color: #ff8f66;
+}
+
+.gray-but-md {
+  background: #999;
+  border-radius: 3px;
+  border: 0;
+  padding: 15px;
+}
+
+.gray-but-md:hover {
+  color: compliment(#999);
+  cursor: pointer;
+  background-color: #cccccc;
+}
+
+.violet-but-md {
+  background: #7f00ff;
+  border-radius: 3px;
+  border: 0;
+  padding: 15px;
+}
+
+.violet-but-md:hover {
+  color: compliment(#7f00ff);
+  cursor: pointer;
+  background-color: #b266ff;
 }
 
 .red-but-lg {
@@ -382,6 +454,34 @@
   color: compliment(#ff4500);
   cursor: pointer;
   background-color: #ff8f66;
+}
+
+.gray-but-lg {
+  background: #999;
+  border-radius: 3px;
+  border: 0;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+.gray-but-lg:hover {
+  color: compliment(#999);
+  cursor: pointer;
+  background-color: #cccccc;
+}
+
+.violet-but-lg {
+  background: #7f00ff;
+  border-radius: 3px;
+  border: 0;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+.violet-but-lg:hover {
+  color: compliment(#7f00ff);
+  cursor: pointer;
+  background-color: #b266ff;
 }
 
 .img-dynamic {

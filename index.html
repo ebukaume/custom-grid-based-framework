@@ -1,100 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>custom grid-based framework</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/scss/framework/awesome.css" />
-    <link rel="stylesheet" href="./assets/scss/custom/style.css" />
-  </head>
 
-  <body>
-    <div class="container-2">
-      <div class="row g-3 m-b-3">
-        <div class="box-sm-8 box-xs-12 panel">
-          <div class="content">
-            <h3 class="title">Resources</h3>
-            <p>
-              More links to articles, tutorials and conference presentations
-              that will help you learn CSS Grid
-            </p>
-          </div>
-        </div>
-        <div class="box-sm-4 box-xs-12 panel">
-          <div class="content">
-            <h3 class="title">CSS Layout News</h3>
-            <p>
-              Sign up for a weekly email full of CSS Layout links and resources.
-            </p>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>custom grid-based framework</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/scss/framework/awesome.css" />
+  <link rel="stylesheet" href="./assets/scss/custom/style.css" />
+  <link rel="stylesheet" href="./assets/css/custom-style.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <div class="flex-row justify-content-end">
+
+        <button class="blue-but-sm m-r-1">follow @rachelandrew</button><button class="default-but-sm m-r-1">46k
+          followers</button>
+
+      </div>
+      <div class="main-header">
+        <h1 class="title-white">Grid by Example</h1>
+        <p class="text-white">Everything you need to learn CSS Grid Layout</p>
+      </div>
+    </div>
+    <nav class="navbar bcg-gray">
+      <a href="#" class="links">Start here</a>
+      <a href="#" class="links">Example</a>
+      <a href="#" class="links">Pattern</a>
+      <a href="#" class="links">Video tutorial</a>
+      <a href="#" class="links">Resources</a>
+    </nav>
+  </header>
+  <div class="container-2">
+    <div class="row g-3 m-b-3">
+      <div class="box-sm-8 box-xs-12 panel first-left">
+
+        <h1 class="title-white">CSS Grid Layout</h1>
+        <p class="text-white">This site is a collection of examples, video and other information to help you learn CSS
+          Grid
+          Layout. Developed and
+          maintained by <a href="#">Rachel Andrew</a>.</p>
+
+      </div>
+      <div class="box-sm-4 box-xs-12 panel">
+
+        <h1 class="title">The Video Tutorial</h1>
+        <p class="text">A collection of short and to the point videos, demonstrating various parts of the CSS Grid
+          Layout
+          specification.</p>
+
+      </div>
+    </div>
+    <div class="row g-3 m-b-3">
+      <div class="box-sm-12 box-xs-12 all bcg-violet">
+        <h1 class="title-white">Get Started Guide</h1>
+        <p class="text-white">A structured guide to resources that will help you to start learning CSS Grid Layout.</p>
+      </div>
+    </div>
+    <div class="row g-3 m-b-3">
+      <div class="box-sm-5 panel">
+        <div class="bcg-green" id="new">New</div>
+        <h1 class="title">The examples</h1>
+        <p class="text">Small examples of the CSS Grid Layout specification. Each demonstrates a feature of the
+          specification. Includes new
+          Subgrid examples!</p>
+      </div>
+      <div class="box-sm-7 panel">
+        <h1 class="title">Patterns</h1>
+        <p class="text">Grab & Go. A set of example patterns with fallbacks for older browsers.</p>
+      </div>
+    </div>
+    <!-- ehdbhsdb -->
+    <div class="row g-3 m-b-3">
+      <div class="box-sm-8 box-xs-12 panel">
+        <div class="content">
+          <h3 class="title">Resources</h3>
+          <p>
+            More links to articles, tutorials and conference presentations
+            that will help you learn CSS Grid
+          </p>
         </div>
       </div>
-      <div class="row g-3 m-b-3">
-        <div class="box-sm-5 box-xs-12 panel">
-          <div class="content">
-            <h3 class="title">Questions?</h3>
-            <p>
-              <strong>Ask me anything</strong> about Grid Layout over at my
-              GitHub Grid AMA.
-            </p>
-          </div>
-        </div>
-        <div class="box-sm-3 box-xs-12 panel">
-          <div class="content">
-            <h3 class="title">About CSS Grid</h3>
-            <p>
-              What even is this? Do I need to care?
-            </p>
-          </div>
-        </div>
-        <div class="box-sm-4 box-xs-12 panel">
-          <div class="content">
-            <h3 class="title">News</h3>
-            <p>
-              Infrequent updates on this site.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row m-b-5">
-        <div class="box-lg-12 box-xs-12 panel">
-          <div class="content">
-            <h3 class="title">GridBugs!</h3>
-            <p>
-              If you have found a bug in a browser, or want to see what we have
-              found so far, check out this site.
-            </p>
-          </div>
+      <div class="box-sm-4 box-xs-12 panel">
+        <div class="content">
+          <h3 class="title">CSS Layout News</h3>
+          <p>
+            Sign up for a weekly email full of CSS Layout links and resources.
+          </p>
         </div>
       </div>
     </div>
-    <footer class="p-t-2">
-      <div class="footer container-2">
-        <div class="wrapper p-2">
-          <p class="m-b-1">
-            This is a project by Rachel Andrew. Take a look at some of the other
-            things I make.
-          </p>
-          <ul class="p-l-3">
-            <li>
-              <a href="#">Perch CMS</a> - the original Really Little CMS.
-              Designed for speed and simple implementation.
-            </li>
-            <li>
-              <a href="#">Notist</a> - slide sharing and much more. Create your
-              public speaking portfolio.
-            </li>
-            <li><a href="#">The CSS Workshop</a> - learn CSS Layout with me</li>
-          </ul>
-          <p class="m-t-2">
-            This site is hosted on
-            <a href="#">Netlify</a>, thanks to their free hosting for open
-            source projects.
+    <div class="row g-3 m-b-3">
+      <div class="box-sm-5 box-xs-12 panel">
+        <div class="content">
+          <h3 class="title">Questions?</h3>
+          <p>
+            <strong>Ask me anything</strong> about Grid Layout over at my
+            GitHub Grid AMA.
           </p>
         </div>
       </div>
-    </footer>
-  </body>
+      <div class="box-sm-3 box-xs-12 panel">
+        <div class="content">
+          <h3 class="title">About CSS Grid</h3>
+          <p>
+            What even is this? Do I need to care?
+          </p>
+        </div>
+      </div>
+      <div class="box-sm-4 box-xs-12 panel">
+        <div class="content">
+          <h3 class="title">News</h3>
+          <p>
+            Infrequent updates on this site.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row m-b-5">
+      <div class="box-lg-12 box-xs-12 panel">
+        <div class="content">
+          <h3 class="title">GridBugs!</h3>
+          <p>
+            If you have found a bug in a browser, or want to see what we have
+            found so far, check out this site.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="p-t-2">
+    <div class="footer container-2">
+      <div class="wrapper p-2">
+        <p class="m-b-1">
+          This is a project by Rachel Andrew. Take a look at some of the other
+          things I make.
+        </p>
+        <ul class="p-l-3">
+          <li>
+            <a href="#">Perch CMS</a> - the original Really Little CMS.
+            Designed for speed and simple implementation.
+          </li>
+          <li>
+            <a href="#">Notist</a> - slide sharing and much more. Create your
+            public speaking portfolio.
+          </li>
+          <li><a href="#">The CSS Workshop</a> - learn CSS Layout with me</li>
+        </ul>
+        <p class="m-t-2">
+          This site is hosted on
+          <a href="#">Netlify</a>, thanks to their free hosting for open
+          source projects.
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
