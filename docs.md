@@ -180,7 +180,7 @@ for mere background
 - bcg-color
 - bcg-color-gradient
 
-## image classes
+### image classes
 
 Even though not implement in this project,the imae class allow us to have an image responsive just like bootsrap's img-fluid class or img-responsive class.Set class on image by
 
