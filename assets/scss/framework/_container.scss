@@ -1,0 +1,14 @@
+$container-sizes: (
+  1: 95%,
+  2: 90%,
+  3: 85%,
+  4: 80%,
+  5: 75%
+);
+
+@each $container, $size in $container-sizes {
+  .container-#{$container} {
+    width: $size;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,27 @@
+$unit-margin: 10px;
+
+@for $num from 1 through 5 {
+  .m-t-#{$num} {
+    margin-top: $num * $unit-margin;
+  }
+  .m-r-#{$num} {
+    margin-right: $num * $unit-margin;
+  }
+  .m-b-#{$num} {
+    margin-bottom: $num * $unit-margin;
+  }
+  .m-l-#{$num} {
+    margin-left: $num * $unit-margin;
+  }
+  .m-h-#{$num} {
+    margin-right: $num * $unit-margin;
+    margin-left: $num * $unit-margin;
+  }
+  .m-v-#{$num} {
+    margin-top: $num * $unit-margin;
+    margin-bottom: $num * $unit-margin;
+  }
+  .m-#{$num} {
+    margin: $num * $unit-margin;
+  }
+}
