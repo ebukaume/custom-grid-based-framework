@@ -32,7 +32,7 @@ $ cd custom-grid-based-framework
 
 ## Deployment
 
-The demo page can be found [HERE](https://raw.githack.com/Forison/custom-grid-based-framework/dev/index.html)
+The demo page can be found [HERE]( https://forison.github.io/custom-grid-based-framework)
 
 ## Contributors
 
